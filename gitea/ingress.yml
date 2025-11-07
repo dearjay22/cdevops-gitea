@@ -10,7 +10,7 @@ metadata:
 spec:
   ingressClassName: nginx # This should match the name of your IngressClass
   rules:
-  - host: giteadearjay22.k3p.dev
+  #- host: dearjay22-gitea.k3p.dev
   - http:
       paths:
         - path: /
@@ -20,3 +20,6 @@ spec:
               name: gitea-http
               port:
                 number: 3000
+
+
+
